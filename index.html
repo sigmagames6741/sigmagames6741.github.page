@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="brand-wrap">
+                <div class="brand-logo">U</div>
+                <div>
+                    <h1>Untitled</h1>
+                    <p>Instant arcade fun with thousands of browser games.</p>
+                </div>
+            </div>
+            <button id="settings-btn" class="settings-btn">⚙️</button>
+        </div>
+        <div class="hero">
+            <div class="hero-copy">
+                <span class="eyebrow">Featured Collection</span>
+                <h2>Jump into action, puzzles, and arcade thrills.</h2>
+                <p>Fast loading game experiences, polished UI, and smart search to help you find the perfect game instantly.</p>
+                <div class="hero-actions">
+                    <button type="button" onclick="document.getElementById('search-input').focus()">Browse Games</button>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div>
+                    <strong>1000+</strong>
+                    <span>Games</span>
+                </div>
+                <div>
+                    <strong>4</strong>
+                    <span>Categories</span>
+                </div>
+                <div>
+                    <strong>Instant</strong>
+                    <span>Play</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="game-library">
+            <div class="library-header">
+                <div>
+                    <p class="section-tag">Library</p>
+                    <h2>Game Library</h2>
+                </div>
+                <span class="library-note">Search by title or type to find your next game.</span>
+            </div>
+            <div class="search-wrap">
+                <input type="text" id="search-input" placeholder="Search games...">
+            </div>
+            <div id="games-grid"></div>
+        </section>
+        <section id="game-area" style="display: none;">
+            <h2 id="current-game-title"></h2>
+            <div id="game-content"></div>
+            <div class="game-controls">
+                <button id="fullscreen-btn">⛶ Fullscreen</button>
+                <button id="back-btn">Back to Library</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Settings</h2>
+            <div class="setting-item">
+                <label for="theme-toggle">Theme:</label>
+                <select id="theme-toggle">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </select>
+            </div>
+            <div class="setting-item">
+                <label for="sound-toggle">Sound Effects:</label>
+                <select id="sound-toggle">
+                    <option value="on">On</option>
+                    <option value="off">Off</option>
+                </select>
+            </div>
+            <div class="setting-item">
+                <label for="default-tic-tac-size">Default Tic-Tac-Toe Size:</label>
+                <select id="default-tic-tac-size">
+                    <option value="3">3x3</option>
+                    <option value="4">4x4</option>
+                    <option value="5">5x5</option>
+                </select>
+            </div>
+            <div class="setting-item">
+                <label for="animations-toggle">Animations:</label>
+                <select id="animations-toggle">
+                    <option value="on">On</option>
+                    <option value="off">Off</option>
+                </select>
+            </div>
+            <div class="setting-item">
+                <label for="optimization-toggle">Optimization:</label>
+                <select id="optimization-toggle">
+                    <option value="balanced">Balanced</option>
+                    <option value="performance">High Performance</option>
+                    <option value="quality">High Quality</option>
+                </select>
+            </div>
+            <button id="save-settings">Save Settings</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 Untitled. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile@main/games.js"></script>
+</body>
+</html>
