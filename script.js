@@ -206,7 +206,7 @@ settingsBtn.addEventListener('click', () => {
     document.getElementById('default-tic-tac-size').value = settings.defaultTicTacSize;
     document.getElementById('animations-toggle').value = settings.animations;
     document.getElementById('optimization-toggle').value = settings.optimization;
-    modal.style.display = 'block';
+    modal.style.display = 'flex';
 });
 
 closeBtn.addEventListener('click', () => {
