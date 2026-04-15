@@ -1,15 +1,14 @@
-# Untitled
+# GameHub
 
-A smooth, modern gaming website with over 1000+ procedurally generated games, featuring a polished UI and customizable settings.
+A comprehensive gaming website featuring 500+ unblocked games from selenite and Chicken King's Vault collections, plus additional UGS games, with a polished UI and customizable settings.
 
 ## Features
 
-- **1000+ Games**: Procedurally generated variations of classic games
-  - 250+ Number Guessing games (ranges from 1-4 to 1-1000)
-  - 250+ Tic-Tac-Toe games (board sizes 3x3 to 12x12)
-  - 250+ Rock Paper Scissors games (different rule variants)
-  - 250+ Quiz games (on Math, Colors, Animals, Shapes)
-- **UGS Games**: Full collection of Ultimate Game Stash HTML5 games (thousands more!)
+- **500+ Real Games**: Combined collection from:
+  - **Selenite Collection** (200+ games): Including 2048, Cookie Clicker, Super Mario 64, Pokémon, Zelda, Minecraft, Flappy Bird, Tetris
+  - **Chicken King's Vault** (300+ games): Including Hollow Knight, Cuphead, Doom 64, Ultrakill, Omori, Hotline Miami, and many more
+- **UGS Games**: Additional HTML5 games from Ultimate Game Stash
+- **Dynamic Game Counter**: Shows the actual number of available games
 - **Smooth UI**: Modern design with animations, transitions, and responsive layout
 - **Settings Panel**: Customize theme (light/dark), sound, default game settings, and animations
 - **Search Functionality**: Find games quickly by title or description
@@ -17,20 +16,27 @@ A smooth, modern gaming website with over 1000+ procedurally generated games, fe
 
 ## Game Categories
 
-### Number Guessing
-Guess numbers in ranges from 1-4 up to 1-1000.
+### Selenite Collection
+Diverse collection of unblocked games including:
+- **Action/Platformers**: Celeste, Jump King, Geometry Dash
+- **Puzzle Games**: Little Alchemy, Hextris, Bloxorz
+- **Idle/Incremental**: Cookie Clicker, AdarkRoom
+- **Arcade**: Flappy Bird, Tetris, Pac-Man
+- **Sports**: Basketball Stars, 1v1 Soccer
+- **Emulated Classics**: GBA, N64, NES games
+- **Unity/WebGL**: Rocket League, Hole.io, Retro Bowl
 
-### Tic-Tac-Toe
-Play on grids from 3x3 up to 12x12, with 3-in-a-row winning condition.
-
-### Rock Paper Scissors
-Classic game with variations like Best of 3, Best of 5, etc.
-
-### Quizzes
-Simple quizzes on Math, Colors, Animals, and Shapes.
+### Chicken King's Vault
+Extensive collection featuring:
+- **AAA Games**: Hollow Knight, Cuphead, Doom 64, Ultrakill
+- **Indie Gems**: Omori, Undertale Yellow, Hotline Miami
+- **Flash Classics**: Red Ball series, Wheely series, Papa's games
+- **Emulated Games**: Pokemon series, Zelda series, Mario games
+- **Rhythm Games**: Geometry Dash, Osu!
+- **Horror Games**: FNAF series, Slender, Five Nights at Candy's
 
 ### UGS Games
-Thousands of HTML5 games from the Ultimate Game Stash collection, including popular titles like Portal, PvZ, Minecraft, and many more.
+Additional HTML5 games from the Ultimate Game Stash collection.
 
 ## Settings
 
@@ -39,6 +45,7 @@ Access settings via the gear icon in the header:
 - **Sound Effects**: Toggle sound (currently placeholder)
 - **Default Tic-Tac-Toe Size**: Set preferred board size
 - **Animations**: Enable/disable UI animations
+- **Optimization**: Performance/Quality/Balanced modes
 
 ## Usage
 
